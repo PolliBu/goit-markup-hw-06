@@ -407,6 +407,7 @@ button {
 .form-button:focus {
   background-color: var(--active-link-color);
 }
+
 /* Our Team */
 
 .section-title-team .list {
