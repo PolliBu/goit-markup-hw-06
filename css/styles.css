@@ -1063,10 +1063,12 @@ button {
 .footer {
   padding: 96px 0;
   background-color: var(--primary-black-color);
+  background-size: cover;
+  min-width: 100%;
 }
 
 .footer-container {
-  max-width: 432px;
+  max-width: 428px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1174,7 +1176,7 @@ button {
   justify-content: center;
   margin: 0;
   align-items: center;
-  min-width: 165px;
+  max-width: 165px;
   /* gap: 16px; */
   /* padding: 8px 24px; */
   color: var(--primary-white-color);
@@ -1183,6 +1185,7 @@ button {
   line-height: var(--primary-line-height);
   letter-spacing: 0.04em;
   margin: 0 auto;
+  height: 40px;
 }
 
 .footer-button-icon {
@@ -1191,6 +1194,43 @@ button {
 @media only screen and (min-width: 768px) {
   .footer-container {
     max-width: 584px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: baseline;
+    gap: 72px 24px;
+  }
+  .footer-button {
+    margin-left: 0;
+  }
+  .subsckribe-form {
+    display: inline-flex;
+    gap: 24px;
+  }
+  .subsckribe-item {
+    text-align: start;
+  }
+  .subsckribe-form-input {
+  }
+  /* .logo.link {
+    margin-left: 0;
+    max-width: 100%;
+    text-align: start;
+  } */
+  /* .footer-container-text .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 0;
+  } */
+  /* .footer-social-item {
+    text-align: start;
+  } */
+  .subscribe-item {
+    text-align: start;
+  }
+  .subsckribe-form-input {
+    min-width: 264px;
+    height: 40px;
   }
 }
 
@@ -1200,7 +1240,32 @@ button {
   }
   .footer-container {
     max-width: 1128px;
-    display: flex;
+    flex-wrap: nowrap;
     align-items: baseline;
+    gap: 0;
+  }
+  .footer-container-text {
+    min-width: 264px;
+
+    margin-right: 120px;
+  }
+  .footer-container-text .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+  .footer-social-item {
+    text-align: start;
+  }
+  .footer-container-social {
+    display: block;
+    margin-right: 80px;
+  }
+
+  .subsckribe-form-input {
+    max-width: 264px;
+  }
+  .footer-container-subsckribe {
+    max-width: 455px;
   }
 }

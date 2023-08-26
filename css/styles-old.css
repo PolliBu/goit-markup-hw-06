@@ -167,18 +167,3 @@
 .section-text-portfolio {
   color: var(--primary-grey-color);
 }
-
-/* Footer */
-
-.footer-container-text {
-  margin-right: 120px;
-}
-.footer-container-text .logo {
-  display: inline-block;
-  margin-bottom: 16px;
-  margin-right: 0;
-}
-
-.footer-container-social {
-  margin-right: 80px;
-}
