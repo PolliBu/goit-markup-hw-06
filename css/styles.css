@@ -1433,14 +1433,22 @@ button {
   }
   .footer-container {
     max-width: 1128px;
+    display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 0;
   }
   .footer-container-text {
-    min-width: 264px;
-
+    max-width: 264px;
     margin-right: 120px;
+    margin-bottom: 0;
+  }
+  .footer-text {
+    margin-bottom: 0;
+  }
+  .footer-box {
+    max-height: 112px;
+    gap: 0;
   }
   .footer-container-text .logo {
     display: inline-block;
@@ -1460,8 +1468,11 @@ button {
     margin-right: 0;
   }
   .footer-container-subsckribe {
-    max-width: 455px;
-    margin-right: 0;
+    min-width: 455px;
+    margin: 0;
+  }
+  .footer.logo-icon {
+    margin-bottom: 0;
   }
 }
 
