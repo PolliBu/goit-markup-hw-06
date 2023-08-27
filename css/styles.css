@@ -1252,7 +1252,6 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 72px;
 }
 .footer-container-text {
   display: flex;
@@ -1271,6 +1270,7 @@ button {
   max-width: 264px;
   line-height: var(--primary-line-height);
   letter-spacing: var(--primary-letter-spacing);
+  margin-bottom: 72px;
 }
 .footer-social-item {
   color: var(--primary-white-color);
@@ -1283,6 +1283,7 @@ button {
 }
 .footer .logo-icon {
   gap: 16px;
+  margin-bottom: 72px;
 }
 .footer .list {
   width: 40px;
@@ -1390,7 +1391,6 @@ button {
   .footer-box {
     display: flex;
     gap: 24px;
-    margin-bottom: 72px;
   }
   .footer-button {
     margin: 0;
@@ -1415,9 +1415,9 @@ button {
     margin-bottom: 16px;
     margin-right: 0;
   } */
-  /* .footer-social-item {
+  .footer-social-item {
     text-align: start;
-  } */
+  }
   .subscribe-item {
     text-align: start;
   }
