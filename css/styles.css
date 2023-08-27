@@ -93,8 +93,8 @@ img {
 /* Header section  */
 @media only screen and (max-width: 767.98px) {
   .header {
-    padding-top: 24px;
-    padding-bottom: 22px;
+    /* padding: 24px 0; */
+    /* padding: auto 0; */
   }
 }
 .header {
@@ -103,6 +103,7 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
+  min-height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -134,6 +135,7 @@ img {
 .nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-item {
@@ -141,11 +143,7 @@ img {
   align-items: center;
   gap: 40px;
 }
-@media only screen and (min-width: 768px) {
-  .nav-item {
-    margin-left: 120px;
-  }
-}
+
 @media only screen and (max-width: 767.98px) {
   .nav-item {
     display: none;
@@ -153,6 +151,19 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
+  .header-container {
+    max-height: 72px;
+  }
+  .nav-item {
+    margin-left: 120px;
+  }
+  .nav-item-link {
+    /* height: 100%; */
+  }
+  .nav.logo {
+    padding: 24px 0;
+  }
+
   .nav-item-list-link {
     padding: 24px 0;
     color: var(--primary-black-color);
@@ -184,25 +195,33 @@ img {
     color: var(--active-link-color);
   }
 
-  .address-contacts-list {
-    padding: 16px 0;
-    margin: right 0;
-  }
   .address-contacts {
+    padding: 16px 0;
     font-style: normal;
+    /* margin-right: 0; */
+
+    /* align-items: center;
+    gap: 12px; */
   }
+  .address-contacts-list {
+    color: var(--primary-grey-color);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  .address-contacts-list-link:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
   .address-contacts-link {
     color: var(--primary-grey-color);
-    align-items: center;
-    display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .address-contacts-link:hover,
   .address-contacts-link:focus {
     color: var(--active-link-color);
-  }
-  .address-contacts-list {
   }
 }
 
@@ -214,6 +233,12 @@ img {
 
 @media only screen and (min-width: 1158px) {
   .address-contacts-list {
+    /* max-width: 118px;
+    max-height: 14px;
+    color: var(--primary-grey-color);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em; */
     display: flex;
     align-items: center;
     gap: 40px;
@@ -642,8 +667,8 @@ img {
 
 /* Mobile menu */
 .menu-toggle {
-  min-height: 22px;
-  min-width: 32px;
+  max-height: 22px;
+  max-width: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
