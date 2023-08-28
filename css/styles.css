@@ -238,12 +238,9 @@ img {
     margin-bottom: 0;
   }
   .address-contacts-list {
-    /* max-width: 118px;
-    max-height: 14px;
-    color: var(--primary-grey-color);
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em; */
+    font-size: 16px;
+    line-height: var(--primary-line-height);
+    letter-spacing: var(--primary-letter-spacing);
     display: flex;
     align-items: center;
     gap: 40px;
