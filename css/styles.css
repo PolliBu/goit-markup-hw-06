@@ -234,6 +234,9 @@ img {
 }
 
 @media only screen and (min-width: 1158px) {
+  .address-contacts-list-link:not(:last-child) {
+    margin-bottom: 0;
+  }
   .address-contacts-list {
     /* max-width: 118px;
     max-height: 14px;
@@ -410,10 +413,10 @@ img {
   .advantages-section {
     padding: 120px 0;
   }
-  .advantages-container {
+  /* .advantages-container {
     max-width: 1128px;
     padding: 0;
-  }
+  } */
   .advantages-list {
     flex-wrap: nowrap;
     gap: 24px;
@@ -575,7 +578,7 @@ img {
   }
 
   .team-container {
-    max-width: 1128px;
+    max-width: 1158px;
   }
 
   .team-list {
@@ -652,7 +655,7 @@ img {
     padding: 120px 0;
   }
   .icone-team-container {
-    max-width: 1128px;
+    max-width: 1158px;
   }
 
   .logo-icon-item {
@@ -799,7 +802,7 @@ img {
 .mobile-menu-tel {
   display: flex;
   justify-content: space-between;
-  min-width: 428px;
+  /* min-width: 428px; */
   /* width: 100%; */
 }
 .mobile-tel {
@@ -1432,7 +1435,7 @@ button {
     padding: 100px 0;
   }
   .footer-container {
-    max-width: 1128px;
+    max-width: 1158px;
     display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
@@ -1472,7 +1475,7 @@ button {
     min-width: 455px;
     margin: 0;
   }
-  .footer.logo-icon {
+  .footer .logo-icon {
     margin-bottom: 0;
   }
 }
