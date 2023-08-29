@@ -1104,6 +1104,9 @@ button {
 .portfolio-photo-item .link {
   display: block;
 }
+.portfolio-photo-item:not(:last-child) {
+  margin-bottom: 48px;
+}
 
 .portfolio-photo-link {
   display: block;
