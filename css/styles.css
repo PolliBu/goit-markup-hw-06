@@ -257,7 +257,7 @@ img {
   background-position: center;
 }
 
-@media only screen and (min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .headline {
@@ -279,7 +279,7 @@ img {
   letter-spacing: var(--primary-letter-spacing);
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .headline {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -287,7 +287,7 @@ img {
       ),
       url(../images/dark-bg-tab.jpg);
   }
-  @media only screen and (min-device-pixel-ratio: 2),
+  @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .headline {
@@ -328,7 +328,7 @@ img {
   background-color: var(--active-link-color);
 }
 
-@media only screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .headline {
     max-width: 1440px;
     padding: 188px 0;
@@ -339,7 +339,7 @@ img {
       url(../images/people-office1.jpg);
   }
 
-  @media only screen and (min-device-pixel-ratio: 2),
+  @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .headline {
