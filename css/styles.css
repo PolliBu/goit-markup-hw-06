@@ -786,7 +786,6 @@ img {
 .mobile-menu-tel {
   display: flex;
   justify-content: space-between;
-  min-width: 353px;
 }
 
 .mobile-tel {
@@ -798,15 +797,20 @@ img {
   letter-spacing: var(--primary-letter-spacing);
   text-transform: capitalize;
 }
+.mobile-menu-tel {
+  min-width: 353px;
+}
 
 @media only screen and (max-width: 427.98px) {
   .mobile-tel {
     font-size: 24px;
   }
+
+  .mobile-menu-tel {
+    min-width: 280px;
+  }
 }
-.mobile-menu-tel {
-  min-width: 280px;
-}
+
 .mobile-address-contacts-link {
   color: var(--primary-grey-color);
   font-size: 20px;
@@ -1085,6 +1089,7 @@ button {
   row-gap: 16px;
   column-gap: 24px;
   margin-bottom: 48px;
+  max-width: 288px;
 }
 
 .portfolio-button .list {
@@ -1212,6 +1217,7 @@ button {
   }
   .portfolio-list {
     justify-content: center;
+    max-width: 768px;
   }
   .portfolio-list.list {
     margin-bottom: 64px;
@@ -1235,6 +1241,9 @@ button {
   .portfolio {
     padding-top: 100px;
     padding-bottom: 120px;
+  }
+  .portfolio-list {
+    max-width: 586px;
   }
   .portfolio-list.list {
     margin-bottom: 72px;
