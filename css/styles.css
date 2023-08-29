@@ -943,9 +943,6 @@ button {
   letter-spacing: var(--primary-letter-spacing);
 }
 
-.modal-form {
-}
-
 .modal-label {
   margin-bottom: 8px;
 }
@@ -1393,8 +1390,6 @@ button {
   border-color: var(--active-link-color);
 }
 
-.subsckribe-form-input::placeholder {
-}
 .footer-button {
   display: flex;
   justify-content: center;
