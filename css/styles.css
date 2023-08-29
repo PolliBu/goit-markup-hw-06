@@ -786,6 +786,7 @@ img {
 .mobile-menu-tel {
   display: flex;
   justify-content: space-between;
+  min-width: 353px;
 }
 
 .mobile-tel {
@@ -802,6 +803,9 @@ img {
   .mobile-tel {
     font-size: 24px;
   }
+}
+.mobile-menu-tel {
+  min-width: 280px;
 }
 .mobile-address-contacts-link {
   color: var(--primary-grey-color);
@@ -851,12 +855,22 @@ img {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-caption {
+  min-width: 360px;
+}
 
 @media only screen and (max-width: 427.98px) {
   .modal {
     max-width: 320px;
   }
   .modal-caption {
+    font-size: 13px;
+    min-width: 290px;
+  }
+  label.modal-form-text {
+    font-size: 10px;
+  }
+  .modal-form-text {
     min-width: 290px;
   }
 }
@@ -865,6 +879,9 @@ img {
   .modal {
     max-width: 408px;
     padding: 72px 24px 24px 24px;
+  }
+  .modal-caption {
+    min-width: 360px;
   }
 }
 
