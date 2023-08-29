@@ -1243,7 +1243,8 @@ button {
     padding-bottom: 120px;
   }
   .portfolio-list {
-    max-width: 586px;
+    text-align: center;
+    max-width: 1158px;
   }
   .portfolio-list.list {
     margin-bottom: 72px;
